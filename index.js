@@ -1,6 +1,5 @@
 function takeANumber(line, name) {
   line.pop(name)
-  var n = parseInt(line.indexof(name))
   return "Welcome, " +name+ ". You are number "+n+1+" in line."
 }
 
