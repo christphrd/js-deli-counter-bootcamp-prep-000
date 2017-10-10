@@ -19,8 +19,9 @@ function currentLine(line){
     var message = "The line is currently: "
     do {
       var i = 1
-      message + i +". "+line[i]
+      var message = message + i +". "+line[i]
       i++
     } while (i == line.length)
+    return message
   }
 }
