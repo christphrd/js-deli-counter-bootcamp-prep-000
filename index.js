@@ -17,8 +17,8 @@ function currentLine(line){
     return "The line is currently empty."
   } else {
     var message = "The line is currently: "
+    var i = 1
     do {
-      var i = 1
       var message = message + i +". "+line[i-1]
       i++
     } while (i == line.length)
