@@ -1,5 +1,6 @@
 function takeANumber(line, name) {
   line.push(name)
+  var pos = line.indexof(name)
   return "Welcome, " +name+ ". You are number "+1+" in line."
 }
 
