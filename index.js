@@ -16,12 +16,10 @@ function currentLine(line){
   if (line.length == 0){
     return "The line is currently empty."
   } else {
-    var message = "The line is currently: "
-    var i = 1
-    do {
-      var message = message + i +". "+line[i-1]
-      i++
-    } while (i == line.length)
+    var message = "The line is currently: 1. " + line[0]
+    for (var i = 2; i < line.length; i++) {
+      var message = message + ", " + i + ". " + line[i-1]
+    }
     return message
   }
 }
