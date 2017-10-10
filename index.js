@@ -16,6 +16,10 @@ function currentLine(line){
   if (line.length == 0){
     return "The line is currently empty."
   } else {
-    return "not right" // place holder for now. Is this a loop?
+    return "The line is currently:" + do { 
+      var i = 1
+      i+". "+line[i]
+      i++
+    } while (line.length > 0)
   }
 }
