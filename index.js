@@ -1,7 +1,7 @@
 function takeANumber(line, name) {
   line.push(name)
-  var pos = line.indexof(name)
-  return "Welcome, " +name+ ". You are number "+pos+1+" in line."
+  var pos = line.length
+  return "Welcome, " +name+ ". You are number "+pos+" in line."
 }
 
 function nowServing(line){
