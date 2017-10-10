@@ -21,6 +21,6 @@ function currentLine(line){
       var i = 1
       i+". "+line[i]
       i++
-    } while (line.length > 0)
+    } while (i == line.length)
   }
 }
