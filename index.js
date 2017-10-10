@@ -1,6 +1,6 @@
 function takeANumber(line, name) {
   line.pop(name)
-  return "Welcome, " +name+ ". You are number "+n+1+" in line."
+  return "Welcome, " +name+ ". You are number "+1+" in line."
 }
 
 function nowServing(line){
