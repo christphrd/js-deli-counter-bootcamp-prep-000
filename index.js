@@ -21,7 +21,7 @@ function currentLine(line){
       var i = 1
       var message = message + i +". "+line[i-1]
       i++
-    } while (i !== line.length)
+    } while (i == line.length)
     return message
   }
 }
